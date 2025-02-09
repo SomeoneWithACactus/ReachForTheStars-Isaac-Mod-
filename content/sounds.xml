@@ -1,0 +1,59 @@
+<sounds root="sfx/">
+
+    <sound name="STAR_PICKUP">
+        <sample weight="1" path="sfx_star_pickup.wav"/>
+    </sound>
+
+    <sound name="GLASS_CLICK">
+    <sample weight="1" path="sfx_glass_click.wav"/>
+    </sound>
+
+    <sound name="STAR_APPEAR">
+    <sample weight="1" path="sfx_star_appear.wav"/>
+    </sound>
+
+    <sound name="STAR_TEAR_SHOOT">
+    <sample weight="1" path="sfx_star_tear_shoot.wav"/>
+    </sound>
+
+    <sound name="UFO_BOMBS_TIMER">
+    <sample weight="1" path="sfx_ufobombs_timer.wav"/>
+    </sound>
+
+    <sound name="SPLAT">
+    <sample weight="1" path="sfx_splat.wav"/>
+    </sound>
+
+    <sound name="MUNCH">
+    <sample weight="1" path="sfx_munch.wav"/>
+    </sound>
+
+    <sound name="THROW">
+    <sample weight="1" path="sfx_throw.wav"/>
+    </sound>
+
+    <sound name="PEARL_TELEPORT">
+    <sample weight="1" path="sfx_pearl_teleport.wav"/>
+    </sound>
+
+    <sound name="WARP_STAR">
+    <sample weight="1" path="sfx_warpstar.wav"/>
+    </sound>
+
+    <sound name="WARP_STAR_TAKE">
+    <sample weight="1" path="sfx_warpstar_take.wav"/>
+    </sound>
+
+    <sound name="LITTLE_SHIP_APPEARS">
+    <sample weight="1" path="sfx_littleship_appear.wav"/>
+    </sound>
+
+    <sound name="ALIEN_REROLL">
+    <sample weight="1" path="sfx_alien_reroll.wav"/>
+    </sound>
+
+    <sound name="CONSTELLATION_HIT">
+    <sample weight="1" path="sfx_constellation_buff.wav"/>
+    </sound>
+
+</sounds>

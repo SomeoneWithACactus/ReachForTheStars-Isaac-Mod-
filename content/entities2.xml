@@ -1,0 +1,330 @@
+<entities anm2root="gfx/" version="5" deathanm2="gfx/enemy_death_portraits.anm2">
+
+    <entity
+    anm2path="005.01_star.anm2"
+    name="Dubaloo"
+    id="5"
+    reroll="false"
+    baseHP="0"
+    boss="0"
+    champion="0"
+    collisionDamage="0"
+    collisionMass="3"
+    collisionRadius="12"
+    friction="1"
+    numGridCollisionPoints="24"
+    shadowSize="17"
+    stageHP="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+    </entity>
+
+
+    <entity
+    anm2path="005.01_star.anm2"
+    name="Star"
+    id="5"
+    reroll="false"
+    baseHP="0"
+    boss="0"
+    champion="0"
+    collisionDamage="0"
+    collisionMass="4"
+    collisionRadius="14"
+    friction="1"
+    numGridCollisionPoints="24"
+    shadowSize="17"
+    stageHP="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+    </entity>
+
+
+    <entity
+    anm2path="005.04_saturnpeach.anm2"
+    name="Saturns Peach"
+    id="5"
+    reroll="false"
+    baseHP="0"
+    boss="0"
+    champion="0"
+    collisionDamage="0"
+    collisionMass="3"
+    collisionRadius="12"
+    friction="1"
+    numGridCollisionPoints="24"
+    shadowSize="17"
+    stageHP="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+    </entity>
+
+
+
+
+
+    <entity
+    name = "Star Tear"
+    id = "2"
+    anm2path = "tears/02.001_star.anm2"
+    friction = "1"
+    numGridCollisionPoints = "0"
+    collisionMass="12" collisionRadius="12"
+    shadowSize = "8">
+
+    <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+
+    </entity>
+
+
+    <entity
+    name = "Stuffed Tear"
+    id = "2"
+    anm2path = "tears/02.002_stuffedtear.anm2"
+    friction = "1"
+    numGridCollisionPoints = "0"
+    collisionMass="12" collisionRadius="12"
+    shadowSize = "8">
+
+    <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+
+    </entity>
+
+
+    <entity
+    name = "Peach Nut"
+    id = "2"
+    anm2path = "tears/02.003_peachnut.anm2"
+    friction = "1"
+    numGridCollisionPoints = "0"
+    collisionMass="12" collisionRadius="12"
+    shadowSize = "8">
+
+    <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+
+    </entity>
+
+
+     <entity
+    name = "Moon Pearl"
+    id = "2"
+    anm2path = "tears/02.004_moonpearl.anm2"
+    friction = "1"
+    numGridCollisionPoints = "0"
+    collisionMass="12" collisionRadius="12"
+    shadowSize = "8">
+
+    <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+
+    </entity>
+
+
+
+    <entity
+    name = "Tiny Mimas"
+    id="3"
+    anm2path = "familiars/003.01_tinymimas.anm2"
+    tags = "cansacrifice"
+    collisionDamage = "3.5"
+    collisionMass="3" collisionRadius="12"
+    shadowSize = "12"
+    friction = "1"/>
+
+    <entity
+    name = "Angry Sun"
+    id="3"
+    anm2path = "familiars/003.02_angrysun.anm2"
+    collisionDamage = "3.5"
+    collisionMass="6" collisionRadius="24"
+    shadowSize = "12"
+    friction = "1"/>
+
+     <entity
+    name = "Disnomia"
+    id="3"
+    anm2path = "familiars/003.03_disnomia.anm2"
+    collisionDamage = "0"
+    collisionMass="6" collisionRadius="24"
+    shadowSize = "12"
+    friction = "1"/>
+
+
+
+    <entity
+    anm2path="slot/Saturn/Saturn.anm2"
+    name="Dubaloo2"
+    id="6"
+    reroll="false"
+    baseHP="0"
+    boss="0"
+    champion="0"
+    collisionDamage="0"
+    collisionMass="3"
+    collisionRadius="12"
+    friction="1"
+    numGridCollisionPoints="24"
+    shadowSize="17"
+    stageHP="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+    </entity>
+
+    <entity
+    anm2path="slot/Saturn/Saturn.anm2"
+    name="Saturn"
+    id="795"
+    reroll="false"
+    shutdoors="false"
+    baseHP="0"
+    boss="0"
+    champion="0"
+    collisionDamage="0"
+    collisionMass="12"
+    collisionRadius="24"
+    friction="1"
+    numGridCollisionPoints="24"
+    shadowSize="17"
+    stageHP="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+    </entity>
+
+    
+    <entity
+    anm2path="slot/SillyFakeSkull/SillySkull.anm2"
+    name="Ship Pack"
+    id="797"
+    baseHP="1" 
+    boss="0"
+    champion="0"
+    reroll="false"
+    shutdoors="false"
+    collisionDamage="0"
+    collisionMass="3"
+    collisionRadius="12"
+    friction="1"
+    numGridCollisionPoints="24"
+    shadowSize="14"
+    stageHP="0"
+    >
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+
+    <entity
+    anm2path="005.02_spacecurrency.anm2"
+    name="Space Currency"
+    id="5"
+    variant="20"
+    subtype="20"
+    baseHP="0" 
+    boss="0"
+    champion="0"
+    collisionDamage="0"
+    collisionMass="3"
+    collisionRadius="12"
+    friction="1"
+    numGridCollisionPoints="24"
+    shadowSize="14"
+    stageHP="0"
+    >
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity
+    anm2path="005.03_astralkey.anm2"
+    name="Astral Key"
+    id="5"
+    variant="30"
+    subtype="20"
+    baseHP="0" 
+    boss="0"
+    champion="0"
+    collisionDamage="0"
+    collisionMass="3"
+    collisionRadius="12"
+    friction="1"
+    numGridCollisionPoints="24"
+    shadowSize="14"
+    stageHP="0"
+    >
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+
+
+
+     <entity
+    anm2path="005.05.01_icecream_napolitan.anm2"
+    name="Napolitan"
+    id="5"
+    variant="120"
+    subtype="1"
+    baseHP="0" 
+    boss="0"
+    champion="0"
+    collisionDamage="0"
+    collisionMass="3"
+    collisionRadius="12"
+    friction="1"
+    numGridCollisionPoints="24"
+    shadowSize="14"
+    stageHP="0"
+    >
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+     <entity
+    anm2path="005.05.02_icecream_chocomint.anm2"
+    name="Chocomint"
+    id="5"
+    variant="120"
+    subtype="2"
+    baseHP="0" 
+    boss="0"
+    champion="0"
+    collisionDamage="0"
+    collisionMass="3"
+    collisionRadius="12"
+    friction="1"
+    numGridCollisionPoints="24"
+    shadowSize="14"
+    stageHP="0"
+    >
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+     <entity
+    anm2path="005.05.03_icecream_sandwich.anm2"
+    name="Sandwich"
+    id="5"
+    variant="120"
+    subtype="3"
+    baseHP="0" 
+    boss="0"
+    champion="0"
+    collisionDamage="0"
+    collisionMass="3"
+    collisionRadius="12"
+    friction="1"
+    numGridCollisionPoints="24"
+    shadowSize="14"
+    stageHP="0"
+    >
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+
+    <entity
+    name = "LIGHT_UFO"
+    id = "1000"
+    anm2path = "effects/1000.03_ufolight.anm2"
+    friction = "1"
+    numGridCollisionPoints = "0"
+    collisionMass="24" collisionRadius="48"
+    shadowSize = "8">
+
+    <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+
+    </entity>
+
+
+
+
+</entities>
+

@@ -1,0 +1,14 @@
+<pocketitems>
+
+    <card description = "May your way shine all the way throught!" hud="Blessing" name = "Blessing from the stars"/>
+
+    <card description = "Oh Magic 8 Ball, please tell me my destiny..." hud="8ball" name = "Pocket 8 ball"/>
+
+    <card description = "Explore and Discover" hud="ThreeSuns" name = "The Three Suns"/>
+
+    <card description = "Your very own team" hud="TheBelt" name = "The Belt"/>
+
+    <card description = "Power from the Stars" hud="TheConstellation" name = "The Constellation"/>
+
+
+</pocketitems>

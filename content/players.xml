@@ -1,0 +1,16 @@
+<players root="gfx/characters/costumes/" portraitroot="gfx/ui/stage/" nameimageroot="gfx/ui/boss/">
+
+    <player name="Nova"
+        skin="character_001_Nova.png"
+        nameimage="playername01_alien.png"
+        hp="4"
+        armor="2"
+        portrait="playerportrait01_alien.png"
+        costumeSuffix="alien"
+        costume="104"
+        skinColor="4"
+        birthright="Reach for the Stars!"
+    />
+
+</players>
+

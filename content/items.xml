@@ -1,0 +1,197 @@
+<items gfxroot="gfx/items/" deathanm2 = "gfx/death_items.anm2" version="1">
+
+    <active id="0"
+    name="Call to Base"
+    gfx="item_00_calltobase.png"
+    tags = "offensive"
+    description="Collect and Analize!"
+    maxcharges="240"
+    chargetype="timed"
+    quality="0"
+    />
+
+     <active id="0"
+    name="Nova's Controller"
+    gfx="item_00_calltobase.png"
+    tags = "offensive"
+    description="The fruits of her Work!"
+    quality="3"
+    maxcharges="4"
+    shopprice = "15"
+    />
+
+    <passive id="1"
+    name="Milky Way Milk"
+    gfx="item_01_milkywaymilk.png"
+    tags = "offensive"
+    description="Damage DOWN + Accuracy UP!"
+    quality="2"
+    cache="damage firedelay tearflag tearcolor"
+    />
+
+    <passive id="2"
+    name="Urania"
+    gfx="item_02_urania.png"
+    tags = "offensive"
+    description="Eyes on the stars"
+    quality="3"
+    cache="damage firedelay shotspeed tearcolor tearflag range"
+    />
+
+    <passive id="3"
+    name="Alien Pepper"
+    gfx="item_03_stuffedpepper.png"
+    tags = "offensive"
+    description="Stuffed Tears!"
+    quality="3"
+    cache="tearcolor tearflag"
+    />
+
+    <familiar id = "4"
+    name = "Tiny Mimas"
+    gfx="item_04_tinymimas.png"
+    description = "The smallest of the family!"
+    quality = "1"
+    cache = "familiars"
+    tags = "offensive summonable monstermanual"
+    />
+
+    <passive id="5"
+    name="Sleep Deprived"
+    gfx="item_05_sleepdeprived.png"
+    tags = "offensive"
+    description="I need to sleep"
+    quality="3"
+    cache="speed"
+    />
+
+    <passive id="6"
+    name="UFO Bombs"
+    bombs="5"
+    gfx="item_06_ufobombs.png"
+    tags = "offensive"
+    description="Unidentified Explosive Object"
+    quality="3"
+    />
+
+    <passive id="7"
+    name="A explorer breakfast"
+    gfx="item_07_explorerbreakfast.png"
+    description="Healt UP! Taste better with milk..."
+    quality="1"
+    maxhearts = "2"
+    hearts = "2"
+    />
+
+    <familiar id = "8"
+    name = "Angry Sun"
+    gfx="item_08_angrysun.png"
+    description = "ANGER UP!"
+    quality = "1"
+    cache = "familiars"
+    tags = "offensive summonable monstermanual"
+    />
+
+    <passive id="9"
+    name="Saturn's Peach"
+    tags = "offensive"
+    gfx="item_09_saturnpeach.png"
+    description="Taste like almonds"
+    quality="2"
+    />
+
+    <passive id="10"
+    name="Celestial Mask"
+    gfx="item_10_celestialmask.png"
+    tags = "offensive"
+    description="Order X: Approved"
+    quality="4"
+    cache="damage tearcolor tearflag range speed"
+    />
+
+    <familiar id = "11"
+    name = "Eris' Mark"
+    gfx="item_11_eris.png"
+    description = "Mom's little mischiveous girl"
+    quality = "2"
+    cache = "familiars"
+    tags = "baby offensive summonable monstermanual"
+    />
+
+    <active id="12"
+    name="Space Scooper"
+    gfx="item_12_spacescoop.png"
+    tags = "offensive"
+    description="A scoop of cube!"
+    quality="2"
+    maxcharges="4"
+    />
+
+    <active id="13"
+    name="Moon's Pearl"
+    gfx="item_13_moonspearl.png"
+    tags = "offensive"
+    description="Throwable Teleporter"
+    quality="0"
+    />
+
+    <active id="14"
+    name="Warp Star"
+    gfx="item_14_warpstar.png"
+    description="Flying in a Dream Land!"
+    quality="2"
+    maxcharges = "6"
+    cache="speed flying"
+    passivecache="true"/>
+
+    <active id="15"
+    name="Virtual Kid"
+    gfx="item_15_virtualkid.png"
+    description="RED ALARM"
+    quality="4"
+    maxcharges = "6"
+    cache="damage"
+    passivecache="true"/>
+
+
+    <trinket
+    name="MINI MINILASER"
+    description="Pocket Size Laser!"
+    gfx="trinket_01_miniminilaser.png"
+    />
+
+    <trinket
+    name="Alien Worm"
+    description="Zip Zap!"
+    gfx="trinket_02_alienworm.png"
+    cache="damage firedelay tearflag shotspeed"
+    />
+
+    <trinket
+    name="Lazy Alien Worm"
+    description="Blip blop!"
+    gfx="trinket_03_lazyalienworm.png"
+    cache="damage firedelay tearflag shotspeed"
+    />
+
+    <trinket
+    name="Ambassador's Crown"
+    description="Cultural Clash!"
+    gfx="trinket_04_emperorscrown_b.png"
+    />
+
+    <trinket
+    name="Sky Lights"
+    description="A petrifying experience"
+    gfx="trinket_05_skylights.png"
+    />
+
+    <trinket
+    name="Stargazing"
+    description="Look at the Sky!"
+    gfx="trinket_06_stargazing.png"
+    />
+
+
+</items>
+

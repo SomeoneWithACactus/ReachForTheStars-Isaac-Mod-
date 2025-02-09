@@ -1,0 +1,40 @@
+<ItemPools>
+
+    <!-- TREASURE POOL -->
+    <Pool Name = "treasure">
+
+
+    <Item Name = "Saturn's Peach" Weight = "1" DecreaseBy = "1" RemoveOn = "0.1"/>
+
+    <Item Name = "Sleep Deprived" Weight = "1" DecreaseBy = "1" RemoveOn = "0.1"/>
+
+    <Item Name = "Space Scooper" Weight = "1" DecreaseBy = "1" RemoveOn = "0.1"/>
+
+    <Item Name = "Warp Star" Weight = "1" DecreaseBy = "1" RemoveOn = "0.1"/>
+
+
+    </Pool>
+
+    <!-- SHOP POOL -->
+    <Pool Name = "shop">
+
+
+    <Item Name = "Sleep Deprived" Weight = "1" DecreaseBy = "1" RemoveOn = "0.1"/>
+
+    <Item Name = "UFO Bombs" Weight = "1" DecreaseBy = "1" RemoveOn = "0.1"/>
+
+    <Item Name = "Space Scooper" Weight = "1" DecreaseBy = "1" RemoveOn = "0.1"/>
+
+
+    </Pool>
+
+    <!-- ANGEL POOL -->
+    <Pool Name = "angel">
+
+
+    <Item Name = "Saturn's Peach" Weight = "1" DecreaseBy = "1" RemoveOn = "0.1"/>
+
+
+    </Pool>
+
+</ItemPools>

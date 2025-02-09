@@ -1,0 +1,15 @@
+<costumes anm2root="gfx/characters/">
+
+    <costume anm2path="nova_hair.anm2" type="none" priority="100" />
+    <costume anm2path="nova_body.anm2" type="none" priority="100" />
+    <costume anm2path="014_warpstar.anm2" isFlying="true" type="none" priority="100" />
+
+    <costume id = "1" anm2path="001_milkywaymilk.anm2" type = "passive" priority = "15"/>
+    <costume id = "2" anm2path="002_urania.anm2" type = "passive" priority = "15"/>
+    <costume id = "3" anm2path="003_alienpepper.anm2" type = "passive" priority = "15"/>
+    <costume id = "5" anm2path="005_sleepdeprived.anm2" hasSkinAlt = "true" type = "passive" priority = "15"/>
+    <costume id = "10" anm2path="006_celestialmask.anm2" type = "passive" priority = "100"/>
+     <costume id = "15" anm2path="015_virtualkid.anm2" type = "active" priority = "19"/>
+    
+
+</costumes>
