@@ -81,17 +81,18 @@ function mod:TearOnUpdate(tear)
 
         end
 
-        if teardata.STUFFED_TEAR == 1 and tear:CollidesWithGrid() then
+        
+
+        if tear:CollidesWithGrid() then
 
             local Grid = Game:GetRoom():GetGridEntityFromPos(tear.Position)
 
-            local GridType = Game:GetRoom():GetGridEntity(GridEntityType.GRID_POOP)
-
             if Grid:GetType() == GridEntityType.GRID_POOP or Grid:GetType() == GridEntityType.GRID_TNT then
-                Grid:Destroy(false)
+
+                Grid:Hurt(1)
+
             end
-
-
+                
         end
 
     end
