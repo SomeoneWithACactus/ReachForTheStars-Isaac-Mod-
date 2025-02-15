@@ -114,25 +114,25 @@ end
 
 Mod:AddCallback(ModCallbacks.MC_EVALUATE_CACHE, Mod.onGreenTears)
 
----@param tear EntityTear
-function Mod:NovasTear(tear)
+--@param tear EntityTear
+--function Mod:NovasTear(tear)
 
-    local player = Isaac.GetPlayer(0)
+--    local player = Isaac.GetPlayer(0)
 
-    if player:GetPlayerType() ~= RFTSCharacters.NOVA and player:HasCollectible(CollectibleType.COLLECTIBLE_LACHRYPHAGY) == false then
-        return
-    end
+--    if player:GetPlayerType() ~= RFTSCharacters.NOVA and player:HasCollectible(CollectibleType.COLLECTIBLE_LACHRYPHAGY) == false then
+--        return
+--    end
 
-    tear.Friction = NOVA_STATS.TEAR_FRICTION
+--    tear.Friction = NOVA_STATS.TEAR_FRICTION
 
-    if (tear.Position - player.Position):Length() > NOVA_STATS.TEAR_LENGT then
+--    if (tear.Position - player.Position):Length() > NOVA_STATS.TEAR_LENGT then
 
-        tear.CollisionDamage = tear.CollisionDamage + NOVA_STATS.TEAR_DMG_MULT
+--        tear.CollisionDamage = tear.CollisionDamage + NOVA_STATS.TEAR_DMG_MULT
 
-    end
+--    end
     
-end
+--end
 
-Mod:AddCallback(ModCallbacks.MC_POST_TEAR_UPDATE, Mod.NovasTear)
+--Mod:AddCallback(ModCallbacks.MC_POST_TEAR_UPDATE, Mod.NovasTear)
 
 
